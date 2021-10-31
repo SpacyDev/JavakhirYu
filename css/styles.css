@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(165,247,234);
+background: linear-gradient(0deg, rgba(165,247,234,1) 26%, rgba(204,240,239,1) 54%);
+}
+
+hr{
+    border-color: grey;
+    border-style: dotted none none;
+    height: 0;
+    border-width: 10px;
+    width: 4%;
+    color: #EAF6F6;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2{
+    margin-bottom: 0px;
+    font-family: 'VT323', monospace;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+.pro{
+    text-decoration: underline;
+}
+.profile-text{
+    width: 30%;
+    margin:50px auto;
+}
+.top-container{
+    background-color: #ccf0ef;
+    position: relative;
+    padding-top: 50px;
+}
+.top-cloud{
+    position: absolute;
+    left:60%;
+    top: 25px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 27%;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Comfortaa', cursive;
+}
+a{
+    color: #11999E;
+    font-family: 'Comfortaa', cursive;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+.programmer{
+    font-weight: normal;
+}
+p{
+    font-family: 'Nova Mono', monospace;
+    line-height: 2;
+}
+.skills-img-first{
+    width: 256px;
+    height: 256px;
+    float: left;
+    margin-right: 30px;
+}
+.skills-img-second{
+    width: 256px;
+    height: 256px;
+    float: right;
+    margin-left: 30px;
+}
+.profile-image{
+    width: 256px;
+    height: 256px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 11px;
+    background-color: #62CEFC;
+    -webkit-box-shadow: 0 1px 15px 0 #33474B;
+    -moz-box-shadow: 0 1px 15px 0 #33474B;
+    box-shadow: 0 1px 15px 0 #33474B;
+    text-shadow: 0 0 5px #63E0D7;
+    border: solid #32C0DD 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 40px
+ }
+ 
+ .btn:hover {
+    background: #11999E;
+    border: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ .middle-container{
+    margin: 100px 0;
+}
+ .bottom-container{
+    background: rgb(5,252,195);
+    background: linear-gradient(0deg, rgba(5,252,195,1) 61%, rgba(165,247,234,1) 90%);
+    padding: 50px 0 20px;
+ }
+ .footer-link{
+     text-decoration: none;
+     margin:20px
+ }
+
+ .contact-me-text
+ {
+     width: 40%;
+     margin: auto;
+ }
